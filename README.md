@@ -93,7 +93,7 @@ convolutional layers, to start with a large filter and then decrease its size wi
 convolutional layer (like in AlexNet), we also tried to build a “parallel” neural network with filters
 of different sizes like GoogleNet/Inception. By the end we had built more than thirty different
 models, but we failed to see any improvements most of the time.
-The final approach we tried was TF with fine tuning. We tried a couple of networks (ResNet,
+The final approach we tried was Transfer Learning with fine tuning. We tried a couple of networks (ResNet,
 VGG, DenseNet, Inception) but we obtained the best results on EfficientNetB7. The training was
 cut short due to extremely long training times and hardware limitations, but was still enough to
 beat the other networks. We then unlocked the last block for fine tuning with a learning rate of
